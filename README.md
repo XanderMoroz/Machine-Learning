@@ -16,8 +16,8 @@
 
 
 1. Обучение с учителем(
-    [классификация](/unsupervised_ML/classification/README.md), 
-    [регрессия](/unsupervised_ML/classification/README.md))
+    [классификация](/supervised_ML/classification/README.md), 
+    [регрессия](/supervised_ML/regression/README.md))
 2. Обучение без учителя(
    [кластеризация]
    [поиск правил]
