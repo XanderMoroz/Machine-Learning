@@ -77,3 +77,11 @@
 - **Метрика качества:** Точность (*Accuracy*)  
 - **Результат:** 92%
 - **Подробности:** [ссылка на colab](https://colab.research.google.com/drive/1p5bLnFD5qeb2gONoc8Vl94wbmTzH8w56?usp=sharing)
+
+#### Задача: Бинарная классификация смс-сообщений (спам/не спам)
+
+- **Датасет:** [ссылка](https://raw.githubusercontent.com/amankharwal/SMS-Spam-Detection/master/spam.csv) (строк - 5572, фичей - 1(текст сообщения))   
+- **Алгоритм:**  Классификатор Бернулли (*BernoulliNB*)   
+- **Метрика качества:** Точность (*Accuracy*)  
+- **Результат:** 97%
+- **Подробности:** [ссылка на colab](https://colab.research.google.com/drive/1meA8w0d7nc0EzUT8MzZczV4POMb_8n6c?usp=sharing)
