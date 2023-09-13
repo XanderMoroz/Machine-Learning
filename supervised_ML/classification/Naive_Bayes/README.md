@@ -72,7 +72,7 @@
 
 #### Задача: Многоклассовая классификация вида ириса по характерискам цветка
 
-- **Датасет:** load_iris из sklearn.datasets (*строк - 150, фичей - 4*)   
+- **Датасет:** (*экземпляров - 150, фичей - 4*)   
 - **Алгоритм:** Гауссовский классификатор (*GaussianNB*)   
 - **Метрика качества:** Точность (*Accuracy*)  
 - **Результат:** 92%
@@ -80,8 +80,16 @@
 
 #### Задача: Бинарная классификация смс-сообщений (спам/не спам)
 
-- **Датасет:** [ссылка](https://raw.githubusercontent.com/amankharwal/SMS-Spam-Detection/master/spam.csv) (строк - 5572, фичей - 1(текст сообщения))   
+- **Датасет:** [ссылка](https://raw.githubusercontent.com/amankharwal/SMS-Spam-Detection/master/spam.csv) (экземпляров - 5572, фичей - 1(текст сообщения))   
 - **Алгоритм:**  Классификатор Бернулли (*BernoulliNB*)   
 - **Метрика качества:** Точность (*Accuracy*)  
 - **Результат:** 97%
 - **Подробности:** [ссылка на colab](https://colab.research.google.com/drive/1meA8w0d7nc0EzUT8MzZczV4POMb_8n6c?usp=sharing)
+
+#### Задача: Многоклассовая классификация текстов статей (предсказание категории)
+
+- **Датасет:** [ссылка](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_20newsgroups.html) (экземпляров - 18846, фичей - 1(текст сообщения), 20 категорий)   
+- **Алгоритм:**  Полиноминальный Классификатор (*MultinomialNB*)   
+- **Метрика качества:** Матрица ошибок (*confusion_matrix*)  
+- **Результат:** Смотрите по ссылке ниже
+- **Подробности:** [ссылка на colab](https://colab.research.google.com/drive/1FL7U5pA9g5y4ZKCmMy08xpgFRYS6RwVO?usp=sharing)
