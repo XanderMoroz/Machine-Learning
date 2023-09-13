@@ -55,6 +55,6 @@ model.fit(x_train,
           epochs=4,
           batch_size=512)
 
-results = model.evaluate(x_test, y_test)
+test_loss, test_acc = model.evaluate(x_test, y_test)
 
-print(results)
+print(f'Точность модели на тестовых данных: {test_acc}')
