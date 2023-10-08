@@ -14,10 +14,9 @@
 
 ## Какое бывает машинное обучение  
 
-
 1. Обучение с учителем(
-    [классификация](/supervised_ML/classification/README.md), 
-    [регрессия](/supervised_ML/regression/README.md))
+    [классификация](/src/Classic_ML/classification/README.md), 
+    [регрессия](/src/Classic_ML/regression/README.md))
 2. Обучение без учителя(
    кластеризация,
    поиск правил,
