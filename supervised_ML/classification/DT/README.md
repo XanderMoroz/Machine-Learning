@@ -108,3 +108,11 @@
 - **Метрика качества:** Точность (*Accuracy*)  
 - **Результат:** 82%
 - **Подробности:** [ссылка на colab](https://colab.research.google.com/drive/1xRn9VqxWtcw7tF1nASlpNiAYBk39K8xd?usp=sharing)
+
+#### Задача: Бинарная классификация наличия сердечно-сосудистых заболеваний
+
+- **Датасет:** (*экземпляров - 70000, фичей - 13*)   
+- **Критерий:** Энтропия (*entropy*)   
+- **Метрика качества:** Точность (*Accuracy*)  
+- **Результат:** 74%
+- **Подробности:** [ссылка на kaggle](https://www.kaggle.com/xandrfrost/binary-classificator-random-forest/edit)
